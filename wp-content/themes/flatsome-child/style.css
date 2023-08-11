@@ -17,7 +17,8 @@ Version: 3.0
 }
 
 body,
-#main {
+#main,
+#wrapper {
   background-color: #121212;
 }
 
@@ -32,10 +33,76 @@ h6 {
   margin-bottom: 10px !important;
 }
 
-.is-divider{
+.col,
+.columns,
+.gallery-item {
+  padding: 15px;
+}
+
+.is-divider {
   background-color: var(--primary);
 }
 
-.post_comments{
+.post_comments {
   display: none;
+}
+
+span.amount {
+  color: white;
+}
+
+.shipping__table td,
+.shipping__table th {
+  color: white;
+}
+
+.checkout_coupon button.is-form {
+  color: white;
+  border: none;
+}
+
+.woocommerce-billing-fields__field-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.woocommerce-billing-fields p {
+  width: 100%;
+  margin: 0;
+}
+
+#billing_country_field {
+  display: none;
+}
+
+#customer_details label {
+  color: white;
+  line-height: 1;
+}
+#customer_details input,
+#customer_details textarea,
+#customer_details select {
+  background: #222222;
+  color: white;
+  height: 3.5em;
+}
+
+#customer_details input:focus,
+#customer_details textarea:focus,
+#customer_details select:focus {
+  background: #222222;
+  color: white;
+}
+
+.woocommerce-checkout-review-order-table th,
+.woocommerce-checkout-review-order-table td,
+.woocommerce-checkout-review-order-table label,
+#payment label {
+  color: white;
+}
+
+.woocommerce-table.woocommerce-table--order-details.shop_table.order_details td,
+.woocommerce-table.woocommerce-table--order-details.shop_table.order_details
+  th {
+  color: white;
 }

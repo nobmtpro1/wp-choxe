@@ -14,6 +14,7 @@ Version: 3.0
 
 :root {
   --primary: #ff2626;
+  --secondary: #222222;
 }
 
 body,
@@ -105,4 +106,143 @@ span.amount {
 .woocommerce-table.woocommerce-table--order-details.shop_table.order_details
   th {
   color: white;
+}
+
+.woocommerce-MyAccount-navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.woocommerce-MyAccount-navigation li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.my-account-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+}
+
+.my-account-nav li {
+  margin: 0;
+  margin-left: 0 !important;
+}
+
+.my-account-nav li.active a {
+  background: var(--primary);
+  color: white;
+}
+
+.my-account-nav li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px var(--primary) solid;
+  /* border-radius: 10px; */
+}
+
+.woocommerce-orders-table.woocommerce-MyAccount-orders td {
+  color: white;
+}
+
+.woocommerce-address-fields input,
+.woocommerce-address-fields select,
+.woocommerce-address-fields .select2-container .select2-selection,
+.woocommerce-address-fields textarea {
+  background: var(--secondary) !important;
+  color: white !important;
+}
+
+.select2-dropdown {
+  background-color: var(--secondary) !important;
+  color: white !important;
+}
+
+.select2-selection__rendered {
+  color: white !important;
+}
+
+.woocommerce-address-fields label {
+  color: white !important;
+}
+
+.woocommerce-EditAccountForm input,
+.woocommerce-EditAccountForm select,
+.woocommerce-EditAccountForm .select2-container .select2-selection,
+.woocommerce-EditAccountForm textarea {
+  background: var(--secondary) !important;
+  color: white !important;
+}
+.woocommerce-EditAccountForm label {
+  color: white !important;
+}
+
+.wishlist-button.is-outline.circle.icon {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.wishlist-button.is-outline.circle.icon:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: transparent;
+}
+
+.yith-wcwl-message,
+#yith-wcwl-popup-message {
+  color: black !important;
+}
+
+.box-text.box-text-products {
+  font-size: 1.1em;
+}
+
+.widget_product_categories .product-categories li a {
+  color: white;
+}
+
+.widget_product_categories .product-categories li.active a {
+  color: var(--primary);
+}
+
+.widget_layered_nav_filters .chosen a {
+  background-color: #353535 !important;
+}
+
+.woocommerce-mini-cart__buttons.buttons .button.checkout {
+  background-color: var(--secondary) !important;
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+}
+
+.off-canvas-left.dark .mfp-content,
+.mfp-content.off-canvas-cart {
+  background-color: var(--secondary) !important;
+}
+
+.variations th label {
+  color: white;
+  font-size: 15px;
+}
+.variations .reset_variations{
+  color: var(--primary);
+}
+
+.woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item).button-variable-item.selected:not(.no-stock){
+  background-color: var(--primary);
+  color: white;
+}
+
+.autocomplete-suggestion img+.search-name{
+  font-size: 18px;
 }

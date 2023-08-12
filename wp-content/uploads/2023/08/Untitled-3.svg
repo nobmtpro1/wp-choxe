@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="icon-wheel" data-name="icon-wheel" transform="translate(-62.458 -309.774)">
+    <g id="Group_wheel65" data-name="Group 65" transform="translate(62.458 309.774)">
+      <path id="Path_53" data-name="Path 53" d="M87.46,359.774h-.087a25,25,0,0,1,.083-50h.087a25,25,0,0,1-.083,50Zm0-47.473a22.473,22.473,0,0,0-.074,44.946h.078a22.473,22.473,0,0,0,.074-44.946Z" transform="translate(-62.458 -309.774)" fill="#ff2626"></path>
+    </g>
+    <g id="Group_66" data-name="Group 66" transform="translate(73.473 320.789)">
+      <path id="Path_54" data-name="Path 54" d="M106.932,368.233a13.985,13.985,0,1,1,13.985-13.985A14,14,0,0,1,106.932,368.233Zm0-25.437a11.453,11.453,0,1,0,11.453,11.453A11.466,11.466,0,0,0,106.932,342.8Z" transform="translate(-92.947 -340.263)" fill="#ff2626"></path>
+    </g>
+    <path id="Path_55" data-name="Path 55" d="M129.71,324.585a2.351,2.351,0,1,0-2.351,2.351A2.351,2.351,0,0,0,129.71,324.585Z" transform="translate(-39.902 -7.939)" fill="#ff2626"></path>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="2.351" cy="2.351" r="2.351" transform="translate(78.903 315.391)" fill="#ff2626"></circle>
+    <path id="Path_56" data-name="Path 56" d="M96.961,334.795a2.351,2.351,0,1,0-.29,3.313A2.351,2.351,0,0,0,96.961,334.795Z" transform="translate(-19.361 -15.425)" fill="#ff2626"></path>
+    <path id="Path_57" data-name="Path 57" d="M85.152,347.6a2.351,2.351,0,1,0,.861,3.212A2.351,2.351,0,0,0,85.152,347.6Z" transform="translate(-12.213 -23.927)" fill="#ff2626"></path>
+    <path id="Path_58" data-name="Path 58" d="M78.436,363.667a2.351,2.351,0,1,0,1.907,2.724A2.351,2.351,0,0,0,78.436,363.667Z" transform="translate(-8.422 -34.356)" fill="#ff2626"></path>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="2.351" cy="2.351" r="2.351" transform="matrix(0.049, -0.999, 0.999, 0.049, 67.142, 340.158)" fill="#ff2626"></circle>
+    <path id="Path_59" data-name="Path 59" d="M82.808,397.692a2.351,2.351,0,1,0,3.212.86A2.351,2.351,0,0,0,82.808,397.692Z" transform="translate(-12.217 -55.882)" fill="#ff2626"></path>
+    <path id="Path_60" data-name="Path 60" d="M93.368,411.543a2.351,2.351,0,1,0,3.312-.29A2.351,2.351,0,0,0,93.368,411.543Z" transform="translate(-19.368 -64.383)" fill="#ff2626"></path>
+    <path id="Path_61" data-name="Path 61" d="M108.027,420.944a2.351,2.351,0,1,0,3.013-1.406A2.351,2.351,0,0,0,108.027,420.944Z" transform="translate(-28.979 -69.941)" fill="#ff2626"></path>
+    <path id="Path_62" data-name="Path 62" d="M125.021,424.767a2.351,2.351,0,1,0,2.351-2.352A2.351,2.351,0,0,0,125.021,424.767Z" transform="translate(-39.91 -71.864)" fill="#ff2626"></path>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="2.351" cy="2.351" r="2.351" transform="translate(91.315 349.453)" fill="#ff2626"></circle>
+    <path id="Path_63" data-name="Path 63" d="M157.768,414.549a2.351,2.351,0,1,0,.289-3.312A2.351,2.351,0,0,0,157.768,414.549Z" transform="translate(-60.449 -64.373)" fill="#ff2626"></path>
+    <path id="Path_64" data-name="Path 64" d="M169.572,401.742a2.351,2.351,0,1,0-.861-3.211A2.351,2.351,0,0,0,169.572,401.742Z" transform="translate(-67.594 -55.868)" fill="#ff2626"></path>
+    <path id="Path_65" data-name="Path 65" d="M176.284,385.67a2.351,2.351,0,1,0-1.908-2.723A2.351,2.351,0,0,0,176.284,385.67Z" transform="translate(-71.381 -45.438)" fill="#ff2626"></path>
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="2.351" cy="2.351" r="2.351" transform="translate(102.651 333.617) rotate(-81.976)" fill="#ff2626"></circle>
+    <path id="Path_66" data-name="Path 66" d="M171.9,351.647a2.351,2.351,0,1,0-3.212-.859A2.351,2.351,0,0,0,171.9,351.647Z" transform="translate(-67.582 -23.913)" fill="#ff2626"></path>
+    <path id="Path_67" data-name="Path 67" d="M161.341,337.8a2.351,2.351,0,1,0-3.312.291A2.351,2.351,0,0,0,161.341,337.8Z" transform="translate(-60.43 -15.414)" fill="#ff2626"></path>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="2.351" cy="2.351" r="2.351" transform="translate(90.764 319.387) rotate(-74.705)" fill="#ff2626"></circle>
+  </g>
+</svg>

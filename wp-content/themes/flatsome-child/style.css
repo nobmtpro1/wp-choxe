@@ -257,7 +257,7 @@ span.amount {
   transform-origin: left top;
 }
 
-._check_type._single{
+._check_type._single {
   position: relative !important;
   top: 0;
   left: 0;
@@ -268,11 +268,25 @@ span.amount {
   padding: 10px 20px;
 }
 
-#_contact_form input, #_contact_form textarea, #_contact_form select{
+#_contact_form input,
+#_contact_form textarea,
+#_contact_form select,
+.wpcf7-response-output {
   background: var(--secondary);
   color: white;
 }
 
-#_contact_form .wpcf7-submit{
+#_contact_form .wpcf7-submit {
   background: var(--primary);
+}
+
+.woocommerce-form.woocommerce-form-register.register input,
+.woocommerce-form.woocommerce-form-login.login input {
+  background: var(--secondary);
+  color: white;
+}
+
+.woocommerce-form.woocommerce-form-register.register label,
+.woocommerce-form.woocommerce-form-login.login label {
+  color: white;
 }

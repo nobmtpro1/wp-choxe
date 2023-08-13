@@ -234,15 +234,36 @@ span.amount {
   color: white;
   font-size: 15px;
 }
-.variations .reset_variations{
+.variations .reset_variations {
   color: var(--primary);
 }
 
-.woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item).button-variable-item.selected:not(.no-stock){
+.woo-variation-swatches
+  .variable-items-wrapper
+  .variable-item:not(.radio-variable-item).button-variable-item.selected:not(
+    .no-stock
+  ) {
   background-color: var(--primary);
   color: white;
 }
 
-.autocomplete-suggestion img+.search-name{
+.autocomplete-suggestion img + .search-name {
   font-size: 18px;
+}
+
+._check_type {
+  margin-top: 0;
+  transform: scale(0.6);
+  transform-origin: left top;
+}
+
+._check_type._single{
+  position: relative !important;
+  top: 0;
+  left: 0;
+  transform: none;
+}
+
+._check_type .badge-inner.on-sale {
+  padding: 10px 20px;
 }

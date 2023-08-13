@@ -1,0 +1,13 @@
+2023-08-12T15:07:14+00:00 CRITICAL require_once(): Failed opening required './includes/Helpers.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\choxe2\wp-content\themes\flatsome-child\functions.php on line 2
+
+2023-08-12T15:08:19+00:00 CRITICAL Uncaught Error: Class 'Helpers' not found in C:\xampp\htdocs\choxe2\wp-content\themes\flatsome-child\woocommerce\loop\add-to-cart.php:25
+Stack trace:
+#0 C:\xampp\htdocs\choxe2\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\choxe2\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1383): wc_get_template('loop/add-to-car...', Array)
+#2 C:\xampp\htdocs\choxe2\wp-content\themes\flatsome\inc\woocommerce\structure-wc-product-box.php(153): woocommerce_template_loop_add_to_cart()
+#3 C:\xampp\htdocs\choxe2\wp-includes\class-wp-hook.php(310): flatsome_product_box_actions_add_to_cart('')
+#4 C:\xampp\htdocs\choxe2\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\choxe2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\choxe2\wp-content\themes\flatsome-child\woocommerce\content-product.php(63): do_action('flatsome_produc...')
+#7 C:\xampp\htdocs\choxe2\wp-includes\template.php(787): require('C:\\ in C:\xampp\htdocs\choxe2\wp-content\themes\flatsome-child\woocommerce\loop\add-to-cart.php on line 25
+

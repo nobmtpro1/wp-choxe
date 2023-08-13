@@ -267,3 +267,12 @@ span.amount {
 ._check_type .badge-inner.on-sale {
   padding: 10px 20px;
 }
+
+#_contact_form input, #_contact_form textarea, #_contact_form select{
+  background: var(--secondary);
+  color: white;
+}
+
+#_contact_form .wpcf7-submit{
+  background: var(--primary);
+}

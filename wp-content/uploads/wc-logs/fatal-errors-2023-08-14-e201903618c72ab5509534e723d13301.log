@@ -1,0 +1,8 @@
+2023-08-14T03:11:56+00:00 CRITICAL Uncaught RuntimeException: Lỗi lưu hành động: Lỗi lưu hành động: Database error. in C:\xampp\htdocs\choxe2\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 C:\xampp\htdocs\choxe2\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 C:\xampp\htdocs\choxe2\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(327): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\choxe2\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp\htdocs\choxe2\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(102): ActionScheduler_ActionFactory->create(Array)
+ in C:\xampp\htdocs\choxe2\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+

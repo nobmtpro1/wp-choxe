@@ -262,7 +262,7 @@ while ( $recentPosts->have_posts() ) : $recentPosts->the_post();
 					<?php do_action('flatsome_blog_post_before'); ?>
 
 					<?php if($show_category !== 'false') { ?>
-						<p class="cat-label <?php if($show_category == 'label') echo 'tag-label'; ?> is-xxsmall op-7 uppercase">
+						<p style="padding:5px 10px " class="cat-label <?php if($show_category == 'label') echo 'tag-label'; ?> is-large op-7 uppercase">
 					<?php
 						foreach((get_the_category()) as $cat) {
 						echo $cat->cat_name . ' ';

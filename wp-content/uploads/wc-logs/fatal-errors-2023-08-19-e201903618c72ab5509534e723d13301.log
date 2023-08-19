@@ -1,0 +1,12 @@
+2023-08-19T04:53:08+00:00 CRITICAL Uncaught Error: Call to undefined function add_ux_builder_breakpoint() in C:\xampp\htdocs\choxe2\wp-content\themes\flatsome\inc\builder\core\server\actions\actions.php:38
+Stack trace:
+#0 C:\xampp\htdocs\choxe2\wp-includes\class-wp-hook.php(310): ux_builder_register_breakpoints('')
+#1 C:\xampp\htdocs\choxe2\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\choxe2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\choxe2\wp-settings.php(632): do_action('init')
+#4 C:\xampp\htdocs\choxe2\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\choxe2\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\choxe2\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\choxe2\wp-content\themes\flatsome\inc\builder\core\server\actions\actions.php on line 38
+

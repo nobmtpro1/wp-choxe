@@ -290,3 +290,9 @@ span.amount {
 .woocommerce-form.woocommerce-form-login.login label {
   color: white;
 }
+
+.cat-label{
+  font-size: small;
+  padding:  5px 10px;
+  background: var(--primary) !important;
+}
